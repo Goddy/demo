@@ -58,17 +58,12 @@
 				    <outputDirectory>target</outputDirectory>
 		    		    <warName>ROOT</warName>
 				</configuration>
-	    		</plugin>
-		</plugins>
-	</build>
-	<build>
-		<plugins>
+			</plugin>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
 	</build>
-
 
 </project>
